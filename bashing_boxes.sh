@@ -3,7 +3,7 @@
 
 
 
-Random_Object=("Napkin" "Shower" "Necklace" "Snow blower" "Cookie jar" "Crib" "Saucepan" "Stove" "Cooler" "Corn")
+Random_Object=("Black" "Red" "Blue" "White" "Green" "Yellow" "Purple" "Pink" "Orange" "Brown")
  
  print_list() {
     echo "List of items:"
