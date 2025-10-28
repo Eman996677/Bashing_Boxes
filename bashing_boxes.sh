@@ -44,6 +44,18 @@ remove_item_from_position() {
         echo "Invalid index."
     fi
 }
+Save_Current_Files(){
+
+
+}
+Load_previous_saved_box(){
+
+
+}
+List_exisiting_saved_box(){
+
+
+}
 
 while true; do
     echo ""
@@ -64,7 +76,7 @@ while true; do
         3) Add_item ;;
         4) remove_last_item ;;
         5) remove_item_from_position ;;
-        6) 
+        6)"" 
             echo "Thanks for Playing!"
             exit ;;
         *) 
@@ -77,28 +89,13 @@ done
 
 
 
-#3)Add_item ;;
 
 
 
 
 
-#read -p "What option do you want to choose? (1-6): " answer
 
-#if [[ "$answer" == "1" ]]; then
-    #print_list
-#elif [[ "$answer" == "2" ]]; then
-    #print_item
-#elif [[ "$answer" == "3" ]]; then
-    #Add_item
-#elif [[ "$answer" == "4" ]]; then
-    #remove_last_item
-#elif [[ "$answer" == "5" ]]; then
-    #remove_item_from_position
-#elif [[ "$answer" == "6" ]]; then 
-    #echo "Thanks for playing!"
-    #exit
-#fi
+
 
 
 
